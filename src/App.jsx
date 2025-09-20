@@ -71,10 +71,10 @@ function Hero(){
 }
 function Categories(){
   const cats = [
-    { id: "ahu", name: "AHU Filters", img: "/images/ahu.jpg", fallback: FALLBACKS.ahu, desc: "EU certified HVAC filters (G4 / F7 / F9 / H13). Bag, pleated & HEPA." },
-    { id: "lights", name: "Emergency Lights", img: "/images/lights.jpg", fallback: FALLBACKS.lights, desc: "LED exit signs, bulkhead lights & safety luminaires." },
-    { id: "thermo", name: "Thermometers", img: "/images/thermo.jpg", fallback: FALLBACKS.thermo, desc: "Digital & analog thermometers (industrial & home)." },
-    { id: "baro", name: "Barometers", img: "/images/baro.jpg", fallback: FALLBACKS.baro, desc: "Precision barometers for weather & labs." },
+    { id: "ahu", name: "AHU Filters", img: "/images/ahu.webp", fallback: FALLBACKS.ahu, desc: "EU certified HVAC filters (G4 / F7 / F9 / H13). Bag, pleated & HEPA." },
+    { id: "lights", name: "Emergency Lights", img: "/images/lights.webp", fallback: FALLBACKS.lights, desc: "LED exit signs, bulkhead lights & safety luminaires." },
+    { id: "thermo", name: "Thermometers", img: "/images/thermo.webp", fallback: FALLBACKS.thermo, desc: "Digital & analog thermometers (industrial & home)." },
+    { id: "baro", name: "Barometers", img: "/images/baro.webp", fallback: FALLBACKS.baro, desc: "Precision barometers for weather & labs." },
   ];
   return (
     <section className="px-6 md:px-8 py-10">
@@ -99,13 +99,13 @@ function Categories(){
 }
 
 const PRODUCT_COPY = {
-  ahu: { title: "AHU Filters", img: "/images/ahu.jpg", fallback: FALLBACKS.ahu,
+  ahu: { title: "AHU Filters", img: "/images/ahu.webp", fallback: FALLBACKS.ahu,
     bullets: ["Grades: G4, F7, F9, H13 (EN ISO 16890 & EN1822)", "Formats: pleated panels, bag filters, HEPA cassettes", "Custom sizes made-to-order (lead time 5–15 working days)"]},
-  lights: { title: "Emergency Lights", img: "/images/lights.jpg", fallback: FALLBACKS.lights,
+  lights: { title: "Emergency Lights", img: "/images/lights.webp", fallback: FALLBACKS.lights,
     bullets: ["LED bulkheads, exit signs, twinspots", "Self-test & maintained/non-maintained options", "IP65, IK10 models for industrial settings"]},
-  thermo: { title: "Thermometers", img: "/images/thermo.jpg", fallback: FALLBACKS.thermo,
+  thermo: { title: "Thermometers", img: "/images/thermo.webp", fallback: FALLBACKS.thermo,
     bullets: ["Digital and analog models", "Industrial & lab-grade accuracy", "Optional calibration certificates"]},
-  baro: { title: "Barometers", img: "/images/baro.jpg", fallback: FALLBACKS.baro,
+  baro: { title: "Barometers", img: "/images/baro.webp", fallback: FALLBACKS.baro,
     bullets: ["Precision measurement for labs & weather", "Wall, bench & digital models", "Optional data logging"]},
 };
 
