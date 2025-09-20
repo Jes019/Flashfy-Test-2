@@ -65,7 +65,7 @@ function Hero(){
           <a href="#/categories"><button className="px-4 py-3 rounded-md border border-blue-600 text-blue-600 font-semibold bg-white">Browse Categories</button></a>
         </div>
       </div>
-      <SafeImg src="/images/hero.jpg" placeholder={FALLBACKS.hero} alt="Warehouse logistics" className="rounded-xl shadow max-w-xl w-full" />
+      <SafeImg src="/images/hero.webp" placeholder={FALLBACKS.hero} alt="Warehouse logistics" className="rounded-xl shadow max-w-xl w-full" />
     </section>
   );
 }
